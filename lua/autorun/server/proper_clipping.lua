@@ -3,7 +3,7 @@ ProperClipping.ClippedEntities = {}
 
 util.AddNetworkString("proper_clipping")
 
-local cvar_visuals = CreateConVar("proper_clipping_max_visual_server", "6", FCVAR_ARCHIVE, "Max visual clips a entity can have, client can still adjust how many will be visible for them, this is just for networking and serverside", 0, 6)
+local cvar_visuals = CreateConVar("proper_clipping_max_visual_server", "6", FCVAR_ARCHIVE, "Max visual clips a entity can have, client can still adjust how many will be visible for them, this is just for networking and serverside", 0, 24)
 
 ----------------------------------------
 

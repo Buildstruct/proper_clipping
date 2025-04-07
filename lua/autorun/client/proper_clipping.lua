@@ -1,6 +1,6 @@
 ProperClipping = ProperClipping or {}
 
-local cvar_clips = CreateConVar("proper_clipping_max_visual", "6", FCVAR_ARCHIVE, "Max clips a entity can have", 0, 6)
+local cvar_clips = CreateConVar("proper_clipping_max_visual", "6", FCVAR_ARCHIVE, "Max clips a entity can have", 0, 24)
 
 ----------------------------------------
 local render_EnableClipping = render.EnableClipping
